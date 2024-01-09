@@ -1,4 +1,4 @@
-// PART A:
+// A:
 #include <stdio.h>
 #include <stdbool.h>
 #include <time.h>
@@ -16,7 +16,7 @@ bool isPrime(int number) {
 }
 
 
-// PART B:
+// B:
 int main() {
     for (int i = 1; i <= 10000; i++) {
         if (isPrime(i)) {
@@ -34,7 +34,7 @@ PART B Question Answer: In the most optimized approach without skipping known no
 */
 
 
-// PART C:
+// C:
 
 // Function to check prime (less efficient version using n/2 method)
 bool isPrime_n2(int number) {

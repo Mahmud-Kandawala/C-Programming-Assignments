@@ -1,8 +1,8 @@
 # C Programming Assignments
 
-#Assignment 1
+## Assignment 1
 
-###Part 1
+### Part 1
 
 ```
 Write a C program which uses a function called search to find
@@ -23,7 +23,7 @@ N.B.!!!! The main program should read in three arrays of varying size
          value is found. If not found the function should return -1.
 ```
 
-###Part 2
+### Part 2
 
 ```
 Write a C program to generate all the multiples of 8 less than 10000

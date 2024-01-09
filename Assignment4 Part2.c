@@ -1,4 +1,4 @@
-'PART A:'
+// PART A:
 #include <stdbool.h>
 
 bool isPrime(int number) {
@@ -14,7 +14,7 @@ bool isPrime(int number) {
 }
 
 
-'PART B:'
+// PART B:
 #include <stdio.h>
 int main() {
     for (int i = 1; i <= 10000; i++) {
@@ -25,7 +25,7 @@ int main() {
     return 0;
 }
 
-'''
+
 PART B Question: How many of these 10,000 numbers do you really have to test before 
 being sure that you have found all the primes?
 
@@ -34,7 +34,7 @@ ranges, you would test approximately 5,000 numbers (every odd number from 1 to 1
 to find all the primes within this range.
 '''
 
-'PART C:'
+// PART C:
 #include <stdio.h>
 #include <time.h>
 #include <stdbool.h>
@@ -88,7 +88,7 @@ int main() {
     return 0;
 }
 
-'''
+/*
 OUTPUT:
 Time taken (n/2 method): 0.005656 seconds
 Time taken (square root method): 0.000119 seconds
@@ -99,4 +99,4 @@ the much shorter time it took to complete the same task.
 - The performance improvement is substantial. To put it in perspective, the square root
 method is roughly 47.6 times faster than the n/2 method in this 
 specific instance (0.005656 / 0.000119 ≈ 47.6).
-'''
+*/

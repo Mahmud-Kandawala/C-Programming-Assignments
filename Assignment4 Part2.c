@@ -27,12 +27,10 @@ int main() {
 }
 
 /*
-PART B Question: How many of these 10,000 numbers do you really have to test before 
-being sure that you have found all the primes?
+PART B Question: How many of these 10,000 numbers do you really have to test before  being sure that you have found all the primes?
 
-PART B Question Answer: In the most optimized approach without skipping known non-prime
-ranges, you would test approximately 5,000 numbers (every odd number from 1 to 10,000) 
-to find all the primes within this range.
+PART B Question Answer: In the most optimized approach without skipping known non-prime ranges, you would test approximately 5,000 numbers
+(every odd number from 1 to 10,000) to find all the primes within this range.
 */
 
 
@@ -76,13 +74,11 @@ int main() {
 
 /*
 OUTPUT:
-Time taken (n/2 method): 0.005656 seconds
-Time taken (square root method): 0.000119 seconds
+- Time taken (n/2 method): 0.005656 seconds
+- Time taken (square root method): 0.000119 seconds
 
-- The square root method is vastly more efficient than the n/2 method, as shown by 
-the much shorter time it took to complete the same task.
+- The square root method is vastly more efficient than the n/2 method, as shown by  the much shorter time it took to complete the same task.
 
-- The performance improvement is substantial. To put it in perspective, the square root
-method is roughly 47.6 times faster than the n/2 method in this 
-specific instance (0.005656 / 0.000119 ≈ 47.6).
+- The performance improvement is substantial. To put it in perspective, the square root method is 
+roughly 47.6 times faster than the n/2 method in this  specific instance (0.005656 / 0.000119 ≈ 47.6).
 */

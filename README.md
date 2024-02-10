@@ -1,4 +1,4 @@
-# C Programming Assignments
+# C Programming Coursework
 
 ## Assignment 1
 
